@@ -3,7 +3,7 @@
 import cv2 as cv
 # Reading the image
 # Replace this image name to your image name
-image = cv.imread("iron.jpeg")
+image = cv.imread("virat.jpeg")
 # Converting the Image into gray_image
 gray_image = cv.cvtColor(image, cv.COLOR_BGR2GRAY)
 # Inverting the Imge
